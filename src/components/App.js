@@ -13,6 +13,7 @@ function App() {
   return (
     <div>
       <NavBar />
+      {/* <routes></routes> in react do  v6 */}
       <Switch>
         <Route path="/movies">
           <MoviesPage movies={movies} />
